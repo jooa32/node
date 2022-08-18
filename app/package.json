@@ -4,10 +4,10 @@
   "description": "",
   "main": "app.js",
   "bin": {
-    "node": "bin/www.js"
+    "node": "www.js"
   },
   "scripts": {
-    "start": "node ./bin/www.js",
+    "start": "nodemon ./bin/www.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
